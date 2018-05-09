@@ -61,7 +61,7 @@ public class samochody {
         return "samochody{" + "marka=" + marka + ", nazwa=" + nazwa + ", predkoscmax=" + predkoscmax + ", cena=" + cena + '}';
     }
 public static void main(String[] args) {
-    ArrayList<Object> lista = new ArrayList<Object>();
+    ArrayList<samochody> lista = new ArrayList<samochody>();
     samochody s1= new samochody("audi", "a6", 280, 200000);
     samochody s2= new samochody("BMW", "q6", 260, 150000);
     samochody s3= new samochody("Reno", "Scenic", 260, 100000);
