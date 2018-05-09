@@ -5,6 +5,8 @@
  */
 package pl.edu.ur.oopl9;
 
+
+
 /**
  *
  * @author maarchyl
@@ -15,7 +17,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Liczby liczby = new Liczby();
+        liczby.sortuj();
+        liczby.wypisz();
         // TODO code application logic here
+        zad2.zad2();
     }
     
 }
