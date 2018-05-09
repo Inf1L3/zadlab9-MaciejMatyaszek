@@ -63,7 +63,7 @@ public class samochody {
 public static void main(String[] args) {
     ArrayList<Object> lista = new ArrayList<Object>();
     samochody s1= new samochody("audi", "a6", 280, 200000);
-    samochody s2= new samochody("BMW", "asasf", 260, 150000);
+    samochody s2= new samochody("BMW", "q6", 260, 150000);
     samochody s3= new samochody("Reno", "Scenic", 260, 100000);
     lista.add(s1);
     lista.add(s2);
