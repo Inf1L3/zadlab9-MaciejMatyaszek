@@ -5,6 +5,9 @@
  */
 package pl.edu.ur.oopl9;
 
+import java.util.HashMap;
+import java.util.Scanner;
+
 
 
 /**
@@ -22,6 +25,28 @@ public class Main {
         liczby.wypisz();
         // TODO code application logic here
         zad2.zad2();
-    }
+        
+        //zad4
+ Scanner input = new Scanner(System.in);
+            
+            HashMap<String, String> słownik = new HashMap<>(20);
+           Słownik s1 = new Słownik();
+           
+           s1.setMap(słownik);
+           String a = " ";
+           while(!a.equals("koniec"))
+           {
+               
+               System.out.println("Wpisz koniec, aby zakończyć działanie programu");
+               a = input.nextLine();
+               
+              if(!słownik.containsKey(a))
+              {
+                  System.out.println("Błąd! Złe słowo");
+              }
+              else
+                   System.out.println(słownik.get(a));
+               
+           } 
     
-}
+}}
